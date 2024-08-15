@@ -5,6 +5,8 @@ import java.util.List;
 import org.springframework.data.domain.Page;
 import org.springframework.web.multipart.MultipartFile;
 
+import flavia.dev.marketplace.model.Product;
+
 
 public interface ProductService {
 

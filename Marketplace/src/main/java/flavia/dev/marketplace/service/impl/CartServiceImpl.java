@@ -7,6 +7,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 
+import flavia.dev.marketplace.model.Cart;
+import flavia.dev.marketplace.model.Product;
+import flavia.dev.marketplace.model.UserDtls;
+import flavia.dev.marketplace.repository.CartRepository;
+import flavia.dev.marketplace.repository.ProductRepository;
+import flavia.dev.marketplace.repository.UserRepository;
+import flavia.dev.marketplace.service.CartService;
+
 
 
 @Service

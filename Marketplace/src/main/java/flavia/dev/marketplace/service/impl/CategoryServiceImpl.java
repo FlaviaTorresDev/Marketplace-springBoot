@@ -9,9 +9,11 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 
-import com.ecom.model.Category;
-import com.ecom.repository.CategoryRepository;
-import com.ecom.service.CategoryService;
+import flavia.dev.marketplace.model.Category;
+import flavia.dev.marketplace.repository.CategoryRepository;
+import flavia.dev.marketplace.service.CategoryService;
+
+
 
 @Service
 public class CategoryServiceImpl implements CategoryService {

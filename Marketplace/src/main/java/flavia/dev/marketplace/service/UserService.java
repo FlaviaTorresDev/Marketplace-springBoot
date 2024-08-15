@@ -4,6 +4,8 @@ import java.util.List;
 
 import org.springframework.web.multipart.MultipartFile;
 
+import flavia.dev.marketplace.model.UserDtls;
+
 
 public interface UserService {
 

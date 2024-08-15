@@ -16,6 +16,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.multipart.MultipartFile;
 
+import flavia.dev.marketplace.model.UserDtls;
+import flavia.dev.marketplace.repository.UserRepository;
+import flavia.dev.marketplace.service.UserService;
+import flavia.dev.marketplace.util.AppConstant;
+
 
 @Service
 public class UserServiceImpl implements UserService {

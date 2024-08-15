@@ -16,6 +16,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.multipart.MultipartFile;
 
+import flavia.dev.marketplace.model.Product;
+import flavia.dev.marketplace.repository.ProductRepository;
+import flavia.dev.marketplace.service.ProductService;
+
 
 
 @Service
